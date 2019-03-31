@@ -1,12 +1,15 @@
 <html>
     <!-- CONTRIBUTING: https://github.com/screenshotwriteups/screenshotwriteups.github.io -->
     <body>
-        <img src="/writeup1.png"/>
-        <img src="/writeup2.png"/>
-        <img src="/writeup3.png"/>
-        <img src="/writeup4.png"/>
-        <img src="/writeup5.png"/>
-        <img src="/writeup6.png"/>
-        <img src="/writeup7.png"/>
+        <img id= "1" src="/writeup1.png"/>
+        <img id= "2" src="/writeup2.png"/>
+        <img id= "3" src="/writeup3.png"/>
+        <img id= "4" src="/writeup4.png"/>
+        <img id= "5" src="/writeup5.png"/>
+        <img id= "6" src="/writeup6.png"/>
+        <img id= "7" src="/writeup7.png"/>
     </body>
+    <script>
+        document.getElementById(window.location.hash.substr(1)).scrollIntoView();
+    </script>
 </html>
